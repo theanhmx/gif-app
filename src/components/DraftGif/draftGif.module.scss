@@ -1,0 +1,22 @@
+.draftGif {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 300px;
+}
+
+.label {
+	color: #a6a6a6;
+	font-family: interface, Helvetica Neue, helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.remove {
+	align-self: center;
+}

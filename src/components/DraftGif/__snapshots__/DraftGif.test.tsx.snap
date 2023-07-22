@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DraftGif should render correctly 1`] = `
+<div>
+  <div
+    class="draftGif"
+  >
+    <img
+      alt="gif"
+    />
+    <div
+      class="info"
+    >
+      <label
+        class="label"
+        for="tags"
+      >
+        Tags:
+      </label>
+      <input
+        data-testid="tag-input"
+        name="tags"
+        placeholder="pets, cat, meow"
+        type="text"
+        value="tag1, tag2, tag3"
+      />
+      <label
+        class="label"
+        for="source_post_url"
+      >
+        Source post url:
+      </label>
+      <input
+        data-testid="source-input"
+        name="source_post_url"
+        placeholder="http://www.mysite.com/my-post/"
+        type="text"
+        value=""
+      />
+      <button
+        class="button remove"
+      >
+        Remove
+      </button>
+    </div>
+  </div>
+</div>
+`;
