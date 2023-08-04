@@ -7,7 +7,7 @@ import { gf } from "./api/giphyFetch";
 
 const router = createBrowserRouter([
   {
-    path: "/gif-app",
+    path: "/",
     element: <Root />,
   },
   {
